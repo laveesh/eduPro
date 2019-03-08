@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-course',
-  templateUrl: './course.component.html',
-  styleUrls: ['./course.component.scss']
+  selector: 'home-course',
+  templateUrl: './home-course.component.html',
+  styleUrls: ['./home-course.component.scss']
 })
-export class CourseComponent implements OnInit {
+export class HomeCourseComponent implements OnInit {
 
 
 //public imageUrl = "http://sdcollege.in/wp-content/uploads/2016/06/courses.jpg";
@@ -19,5 +19,6 @@ constructor() {
  }
   ngOnInit() {
   }
+
 
 }
