@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { LoginComponent } from './login/login.component';
+import { loginComponent } from './login/login.component';
 import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
 import { CoursesComponent } from './courses/courses.component';
 import { CoursesDescriptionComponent } from './courses-description/courses-description.component';
@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'course-preview', component: CoursePreviewComponent },
   { path: 'courses-description', component: CoursesDescriptionComponent },
   { path: 'forum', component: ForumComponent },
-  { path: 'login', component: LoginComponent },
+  { path: 'login', component: loginComponent },
   { path: 'about', component: AboutComponent }
 ];
 
