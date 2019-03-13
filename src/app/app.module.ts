@@ -16,6 +16,10 @@ import { CoursesDescriptionComponent } from './courses-description/courses-descr
 import { ForumComponent } from './forum/forum.component';
 import { CoursePreviewComponent } from './course-preview/course-preview.component';
 import { AboutComponent } from './about/about.component';
+import { UdCompletedCoursesComponent } from './user-dashboard/ud-completed-courses/ud-completed-courses.component';
+import { UdOverdueCoursesComponent } from './user-dashboard/ud-overdue-courses/ud-overdue-courses.component';
+import { UdCardsComponent } from './user-dashboard/ud-cards/ud-cards.component';
+import { UdQuizesComponent } from './user-dashboard/ud-quizes/ud-quizes.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +35,11 @@ import { AboutComponent } from './about/about.component';
     ForumComponent,
     CoursePreviewComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    UdCompletedCoursesComponent,
+    UdOverdueCoursesComponent,
+    UdCardsComponent,
+    UdQuizesComponent
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
