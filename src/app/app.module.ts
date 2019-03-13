@@ -16,6 +16,10 @@ import { CoursesDescriptionComponent } from './courses-description/courses-descr
 import { ForumComponent } from './forum/forum.component';
 import { CoursePreviewComponent } from './course-preview/course-preview.component';
 import { AboutComponent } from './about/about.component';
+import { CourseEnrollmentComponent } from './courses-description/course-enrollment/course-enrollment.component';
+import { CoursesAvailedComponent } from './courses-description/courses-availed/courses-availed.component';
+import { RelatedCoursesComponent } from './courses-description/related-courses/related-courses.component';
+import { CourseDetailsComponent } from './courses-description/course-details/course-details.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +35,11 @@ import { AboutComponent } from './about/about.component';
     ForumComponent,
     CoursePreviewComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    CourseEnrollmentComponent,
+    CoursesAvailedComponent,
+    RelatedCoursesComponent,
+    CourseDetailsComponent
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],

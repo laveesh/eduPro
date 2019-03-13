@@ -1,3 +1,21 @@
-<p>
-  courses-description works!
-</p>
+<html>
+<head>
+    <link href="courses-description.component.scss">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div>
+  <div class="d-flex">
+    <div class="col-md-7 col-sm-12 col-xs-12">
+    <app-course-enrollment></app-course-enrollment>
+    </div>
+    <div class="col-md-5 col-sm-12 col-xs-12">
+    <app-courses-availed></app-courses-availed>
+    </div>
+  </div>
+  <br>
+  <app-course-details></app-course-details>
+  <app-related-courses></app-related-courses>
+</div>
+</body>
+</html>
