@@ -16,6 +16,10 @@ import { CoursesDescriptionComponent } from './courses-description/courses-descr
 import { ForumComponent } from './forum/forum.component';
 import { CoursePreviewComponent } from './course-preview/course-preview.component';
 import { AboutComponent } from './about/about.component';
+import { UdCompletedCoursesComponent } from './user-dashboard/ud-completed-courses/ud-completed-courses.component';
+import { UdOverdueCoursesComponent } from './user-dashboard/ud-overdue-courses/ud-overdue-courses.component';
+import { UdCardsComponent } from './user-dashboard/ud-cards/ud-cards.component';
+import { UdQuizesComponent } from './user-dashboard/ud-quizes/ud-quizes.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { CourseCategoryComponent } from './courses/course-category/course-category.component';
 import { AllCoursesComponent } from './courses/all-courses/all-courses.component';
@@ -35,6 +39,10 @@ import { AllCoursesComponent } from './courses/all-courses/all-courses.component
     CoursePreviewComponent,
     ContactComponent,
     AboutComponent,
+    UdCompletedCoursesComponent,
+    UdOverdueCoursesComponent,
+    UdCardsComponent,
+    UdQuizesComponent,
     CategoriesComponent,
     CourseCategoryComponent,
     AllCoursesComponent,

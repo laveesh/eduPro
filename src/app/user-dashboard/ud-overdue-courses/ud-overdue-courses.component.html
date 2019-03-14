@@ -1,0 +1,66 @@
+<div>
+    <div class="head">
+        <h1>
+            Overdue Courses
+          </h1>
+    </div>
+    <br>
+   <div class="o-course-one col-md-12">
+      <div class="card rounded pt-4 pb-4 pl-4 " style="width: 50rem;">
+          <div class="card-title col-md-6 o-course-two">
+            Name of course
+          </div>
+      </div>    
+          
+            <div class="card col-md-6">
+              <div class="card-body">
+                
+                <h6 class="card-subtitle">
+                  This is Progress bars with current value labels
+                </h6>
+                <p>
+                  <ngb-progressbar showValue="true" type="success" value="25">
+                  </ngb-progressbar>
+                </p>
+                <p>
+                  <ngb-progressbar
+                    showValue="true"
+                    type="info"
+                    [value]="50"
+                  ></ngb-progressbar>
+                </p>
+                <p>
+                  <ngb-progressbar
+                    showValue="true"
+                    type="primary"
+                    [value]="150"
+                    max="200"
+                  >
+                  </ngb-progressbar>
+                </p>
+                <p>
+                  <ngb-progressbar
+                    showValue="true"
+                    type="inverse"
+                    [value]="150"
+                    max="150"
+                  >
+                  </ngb-progressbar>
+                </p>
+                <p>
+                  <ngb-progressbar
+                    showValue="true"
+                    type="warning"
+                    [value]="150"
+                    max="200"
+                  >
+                  </ngb-progressbar>
+                </p>
+                <p>
+                  <ngb-progressbar showValue="true" type="danger" [value]="150" max="150">
+                  </ngb-progressbar>
+                </p>
+              </div>
+            </div>
+          </div> 
+          <br><br>
