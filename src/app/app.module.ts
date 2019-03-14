@@ -20,6 +20,9 @@ import { UdCompletedCoursesComponent } from './user-dashboard/ud-completed-cours
 import { UdOverdueCoursesComponent } from './user-dashboard/ud-overdue-courses/ud-overdue-courses.component';
 import { UdCardsComponent } from './user-dashboard/ud-cards/ud-cards.component';
 import { UdQuizesComponent } from './user-dashboard/ud-quizes/ud-quizes.component';
+import { CategoriesComponent } from './categories/categories.component';
+import { CourseCategoryComponent } from './courses/course-category/course-category.component';
+import { AllCoursesComponent } from './courses/all-courses/all-courses.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +42,10 @@ import { UdQuizesComponent } from './user-dashboard/ud-quizes/ud-quizes.componen
     UdCompletedCoursesComponent,
     UdOverdueCoursesComponent,
     UdCardsComponent,
-    UdQuizesComponent
+    UdQuizesComponent,
+    CategoriesComponent,
+    CourseCategoryComponent,
+    AllCoursesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
