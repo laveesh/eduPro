@@ -16,6 +16,10 @@ import { CoursesDescriptionComponent } from './courses-description/courses-descr
 import { ForumComponent } from './forum/forum.component';
 import { CoursePreviewComponent } from './course-preview/course-preview.component';
 import { AboutComponent } from './about/about.component';
+import { CourseEnrollmentComponent } from './courses-description/course-enrollment/course-enrollment.component';
+import { CoursesAvailedComponent } from './courses-description/courses-availed/courses-availed.component';
+import { RelatedCoursesComponent } from './courses-description/related-courses/related-courses.component';
+import { CourseDetailsComponent } from './courses-description/course-details/course-details.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { CourseCategoryComponent } from './courses/course-category/course-category.component';
 import { AllCoursesComponent } from './courses/all-courses/all-courses.component';
@@ -35,6 +39,10 @@ import { AllCoursesComponent } from './courses/all-courses/all-courses.component
     CoursePreviewComponent,
     ContactComponent,
     AboutComponent,
+    CourseEnrollmentComponent,
+    CoursesAvailedComponent,
+    RelatedCoursesComponent,
+    CourseDetailsComponent,
     CategoriesComponent,
     CourseCategoryComponent,
     AllCoursesComponent,
